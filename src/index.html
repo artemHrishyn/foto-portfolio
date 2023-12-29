@@ -1,61 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <title>Foto Portfolio</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="image/x-icon" rel="shortcut icon"
+            href="./image/icon/fotoaparat.ico">
+        <link rel="stylesheet" href="./style/style.css">
+        <title>Foto Portfolio</title>
+    </head>
 
-<body>
-    <header class="content">
-        <h1>Julie</h1>
-        <ul>
-            <li><a href="">Про мене</a></li>
-            <li><a href="">Портфоліо</a></li>
-            <li><a href="">Ціни</a></li>
-            <li><a href="">Записаться</a></li>
-        </ul>
+    <body>
+        <header class="content">
+            <h1>Julie</h1>
+            <ul>
+                <li><a href="#about-us">Про мене</a></li>
+                <li><a href="#portfolio">Портфоліо</a></li>
+                <li><a href="#price">Ціни</a></li>
+                <li><a href="#order">Записаться</a></li>
+            </ul>
 
-        <a href="tel:+380961195404">+380 (96) 119 54 04</a>
-    </header>
-    <main class="content">
-        <div class="intro">
-            <div class="intro__info">
-                <h1>Юлія Тюлькіна</h1>
-                <p>фотограф / відеооператор</p>
-                <a href="">Записаться на фотоссесию</a>
+            <a href="tel:+380961195404">+380 (96) 119 54 04</a>
+        </header>
+        <main class="content">
+            <div class="intro">
+                <div class="intro__info">
+                    <h1>Юлія Тюлькіна</h1>
+                    <p>фотограф / відеооператор</p>
+                    <a href>Записаться на фотоссесию</a>
+                </div>
+                <img src="./image/my foto.png" alt="my foto">
             </div>
-            <img src="./image/my foto.png" alt="my foto">
-        </div>
-        <div class="about-us">
-            <h1>Про мене</h1>
-            <div class="about-us__me">
-                <img src="./image/my foto 2.jpg" alt="my foto">
-                <p>Юлія Тюлькіна</p>
+            <div id="about-us">
+                <h2>Про мене</h2>
+                <div id="about-us__me">
+                    <img src="./image/my foto 2.jpg" alt="my foto">
+                    <p>Юлія Тюлькіна</p>
+                </div>
+                <div id="about-us__info">
+                    <h5>Вітання! Мене звуть Юля, я фотограф із Вінниці</h5>
+                    <p>Занимаюсь фотографией более 2 лет. Люблю живые,
+                        естественные, теплые и эмоциональные кадры. Умею
+                        работатьс такими инструментами как Photoshop, Lightroom.
+                        Фотография для меня - это способ показать прекрасное в
+                        простоте,то есть открыть занавес изящного и
+                        ненавязчивого. Видеосъёмка является чем-то по особенному
+                        ценным, ведь можно запечатлеть момент
+                        навсегда и при этом оставить отпечаток в истории.
+                    </p>
+                    <img src="./image/my foto 3.jpg" alt="my foto">
+                </div>
             </div>
-            <div class="about-us__info">
-                <h5>Вітання! Мене звуть Юля, я фотограф із Вінниці</h5>
-                <p>Занимаюсь фотографией более 2 лет. Люблю живые, естественные, теплые и эмоциональные кадры. Умею
-                    работатьс такими инструментами как Photoshop, Lightroom.
-                    Фотография для меня - это способ показать прекрасное в простоте,то есть открыть занавес изящного и
-                    ненавязчивого. Видеосъёмка является чем-то по особенному ценным, ведь можно запечатлеть момент
-                    навсегда и при этом оставить отпечаток в истории.
-                </p>
-                <img src="./image/my foto 3.jpg" alt="my foto">
+            <div id="portfolio">
+                <h2>Портфоліо</h2>
+                <ul>
+                    <li>
+                        <img src="./image/client 1.jpg" alt="client">
+                        <h5>Теплі фото біля будинку</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit.</p>
+                        <button>Всі фото</button>
+                    </li>
+                    <li>
+                        <img src="./image/client 2.jpg" alt="client">
+                        <h5>Ранкова відеозйомка</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer sagittis, natoque amet at hendrerit
+                            consectetur rhoncus.</p>
+                        <button>Всі фото</button>
+                    </li>
+                    <li>
+                        <img src="./image/client 3.jpg" alt="client">
+                        <h5>Фотосесія з квітами</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. Integer sagittis, natoque amet.</p>
+                        <button>Всі фото</button>
+                    </li>
+                </ul>
             </div>
-        </div>
-    </main>
-    <footer class="content">
-        <h1>Julie</h1>
-        <ul>
-            <li><img src="./image/icon/instagram.svg" alt="instagram"></li>
-            <li><img src="./image/icon/facebook.svg" alt="facebook"></li>
-            <li><img src="./image/icon/email.jpg" alt="email"></li>
-        </ul>
-        <a href="tel:+380961195404">+380 (96) 119 54 04</a>
-    </footer>
-</body>
+            <div id="price">
+                <h2>Ціни</h2>
+
+                <div id="price__info">
+                    <div id="price__info__item">
+
+                        <img src="./image/client 4.jpg" alt="client">
+                        <h5>Фотосесія</h5>
+
+                        <ul>
+                            <li>Тривалість <span>1 год</span></li>
+                            <li>Час обробки фото <span>5 днів</span></li>
+                            <li>Количество фото<span>20 штук</span></li>
+                        </ul>
+
+                        <p>200 грн<a href="#order">Замовити зараз</a></p>
+                    </div>
+                    <div id="price__info__item">
+
+                        <img src="./image/client 5.jpg" alt="client">
+                        <h5>Фотосесія</h5>
+
+                        <ul>
+                            <li>Тривалість <span>1 год</span></li>
+                            <li>Час обробки фото <span>5 днів</span></li>
+                            <li>Количество фото<span>20 штук</span></li>
+                        </ul>
+
+                        <p>200 грн<a href="#order">Замовити зараз</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="order"></div>
+        </main>
+        <footer class="content">
+            <h1>Julie</h1>
+            <ul>
+                <li><img src="./image/icon/instagram.svg" alt="instagram"></li>
+                <li><img src="./image/icon/facebook.svg" alt="facebook"></li>
+                <li><img src="./image/icon/email.jpg" alt="email"></li>
+            </ul>
+            <a href="tel:+380961195404">+380 (96) 119 54 04</a>
+        </footer>
+    </body>
 
 </html>
