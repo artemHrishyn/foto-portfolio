@@ -1,0 +1,41 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+        color: #A52424;
+        font-family: Pacifico sans-serif;
+        font-size: 48px;
+        font-weight: 400;
+        letter-spacing: 1.44px;
+    }
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        max-width: 535px;
+        width: 100%;
+        list-style: none;
+
+        a{
+            color: #101010;
+            font-family: Montserrat sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 130%;
+            letter-spacing: 0.9px;
+            text-decoration: none;
+        }
+    }
+
+    a{
+        color: #A52424;
+        font-family: Montserrat sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 130%;
+        letter-spacing: 0.9px;
+        text-decoration: none;
+    }
+}

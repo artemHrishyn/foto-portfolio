@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Pacifico&display=swap');
+@import url('./main-block/header.css');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    scroll-behavior: smooth;
+    box-sizing: border-box;    
+    font-family: Montserrat sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.content{
+    max-width: 1170px;
+    width: 100%;
+}
