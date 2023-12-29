@@ -259,5 +259,73 @@ main{
 }
 
 #order{
-    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 150px;
+    margin-bottom: 150px;
+
+    h2{
+        grid-column: 1/-1;
+        margin-bottom: 50px;
+        color: #232323;
+        font-size: 64px;
+        font-weight: 700;
+        letter-spacing: 3.2px;
+    }
+
+    .img{
+        position: relative;
+        max-width: 590px;
+        width: 100%;
+
+        &__item1{
+            max-width: 285px;
+            top: 47px;
+            position: relative;
+        }
+        &__item2{
+            position: absolute;
+            left: 240px;
+            max-width: 329px;
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+
+        input{
+            margin-bottom: 40px;
+            border: 1px solid #232323;
+            padding: 0 20px;
+            height: 60px;
+            color: rgba(35, 35, 35, 0.35);
+            font-family: Montserrat sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 130%;
+            letter-spacing: 0.9px;
+        }
+
+        textarea{
+            margin-bottom: 40px;
+            padding: 18px 20px;
+            resize: none;
+            color: rgba(35, 35, 35, 0.35);
+            font-family: Montserrat sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 130%;
+            letter-spacing: 0.9px;
+        }
+
+        .submit{
+            background-color: #fff;
+            color: #A52424;
+            font-family: Montserrat sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            letter-spacing: 1.2px;
+        }
+    }
 }
